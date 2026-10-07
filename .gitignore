@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fine-tuned Laya checkpoints (~800 MB each), created by notebook 03
+checkpoints/
+
+# Local tool settings
+.claude/
+
+# Earlier API-generated drafts of the dataset, not used by the notebooks
+data/generated_*.jsonl
